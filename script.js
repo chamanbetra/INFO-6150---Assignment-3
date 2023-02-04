@@ -22,6 +22,12 @@ function addNewValue(){
   var mainTable=document.getElementById("myTable");//getting the table
   rowCount++;
 
+  if (rowCount > 10)
+  {
+    alert("Error adding student - max 10 allowed");
+    return false;
+  }
+
   var tabletr=document.createElement("tr"); //creating a row
   tabletr.id="rowId" ; 
   var tablerow=mainTable.appendChild(tabletr); //appending the row inside a table 
