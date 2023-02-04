@@ -154,6 +154,8 @@ function rowDeleteOnclick(d){
   rowCount--
   
   alert("Student Record Deleted Successfully");
+  document.getElementById("button").disabled=true;
+  document.getElementById("button").style.backgroundColor="grey";
 }
 
 function rowEditOnclick(){
