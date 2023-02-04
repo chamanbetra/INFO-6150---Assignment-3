@@ -17,8 +17,14 @@
 }
 #button {
 	color:#fff;
-	background-color: orange;
 	border-radius: 3px;
-	border:2px solid orange;
 	margin-left: 180px;
+	background-color: gray;
+}
+
+#button:disabled{
+	color:#fff;
+	border-radius: 3px;
+	margin-left: 180px;
+	background-color: gray;
 }
